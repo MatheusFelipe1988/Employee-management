@@ -40,9 +40,9 @@ public class EmployeeController {
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PutMapping("{id}")
-    public ResponseEntity<EmployeeDTO> updateEmployee(@PathVariable Long employeeId,
-                                                      @RequestBody EmployeeDTO updateEmplo){
-        EmployeeDTO employeeDTO = service.updateEmployee(employeeId, updateEmplo);
+    public ResponseEntity<EmployeeDTO> updateEmployee(@PathVariable("id") Long employeeId,
+                                                      @RequestBody EmployeeDTO upEmployee){
+        EmployeeDTO employeeDTO = service.updateEmployee(employeeId, upEmployee);
 
         return ResponseEntity.ok(employeeDTO);
     }
