@@ -1,4 +1,4 @@
-# Employee-management
+v# Employee-management
   Sistema de gerenciamento de Funcionários que utiliza os métodos CRUD como criar, atualizar, deletar e ler os dados, mas tudo feito dentro de um front end que foi integrado ao nodeJS para conectar o back end Java que possui todas as operações e o banco de dados MySQL que armazena todos os funcionarios no sistema onde uma simples tablea demonstra todos inclusos.
 
 ## Back-End
@@ -16,7 +16,4 @@
 
 #### Front-End
 - ReactJS
-- NodeJS
-- Javascript
-- HTML/CSS
-- ViteJS
+- Bootstrap
