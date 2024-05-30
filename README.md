@@ -9,11 +9,12 @@
 
 ## Stacks
 #### Back-End
-- Java
-- MySQL
-- Springboot
+- Java 17
+- MySQL 8.0
+- Springboot 2.
 - Swagger
 
 #### Front-End
 - ReactJS
 - Bootstrap
+- NodeJS
