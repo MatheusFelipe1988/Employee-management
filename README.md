@@ -11,10 +11,10 @@
 #### Back-End
 - Java 17
 - MySQL 8.0
-- Springboot 2.
-- Swagger
+- Springboot 3.1.10
+- Swagger 2.0.8
 
 #### Front-End
-- ReactJS
-- Bootstrap
-- NodeJS
+- ReactJS 18.2.0
+- Bootstrap 5.3.3
+- NodeJS 20.12.2
